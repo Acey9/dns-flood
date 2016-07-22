@@ -33,7 +33,7 @@ enum dns_type {
 	TYPE_MINFO,		//14
 	TYPE_MX,		//15 
 	TYPE_TXT,		//16
-	TYPE_ANY,   
+	TYPE_ANY = 0xff,   
 	TYPE_AAAA = 0x1c,
 };
 
